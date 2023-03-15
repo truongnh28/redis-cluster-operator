@@ -3,9 +3,9 @@ package manager
 import (
 	"time"
 
-	redisv1alpha1 "github.com/ucloud/redis-cluster-operator/pkg/apis/redis/v1alpha1"
-	"github.com/ucloud/redis-cluster-operator/pkg/controller/heal"
-	"github.com/ucloud/redis-cluster-operator/pkg/redisutil"
+	redisv1alpha1 "github.com/truongnh28/redis-cluster-operator/pkg/apis/redis/v1alpha1"
+	"github.com/truongnh28/redis-cluster-operator/pkg/controller/heal"
+	"github.com/truongnh28/redis-cluster-operator/pkg/redisutil"
 )
 
 type IHeal interface {

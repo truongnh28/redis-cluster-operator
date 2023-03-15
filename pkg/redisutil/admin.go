@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-logr/logr"
 
-	"github.com/ucloud/redis-cluster-operator/pkg/utils"
+	"github.com/truongnh28/redis-cluster-operator/pkg/utils"
 )
 
 const (

@@ -1,7 +1,7 @@
 package clustering
 
 import (
-	"github.com/ucloud/redis-cluster-operator/pkg/redisutil"
+	"github.com/truongnh28/redis-cluster-operator/pkg/redisutil"
 	"testing"
 )
 

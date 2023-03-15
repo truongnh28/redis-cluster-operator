@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/ucloud/redis-cluster-operator/pkg/controller/redisclusterbackup"
+	"github.com/truongnh28/redis-cluster-operator/pkg/controller/redisclusterbackup"
 )
 
 func init() {

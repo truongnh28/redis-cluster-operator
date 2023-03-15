@@ -6,7 +6,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
 
-	"github.com/ucloud/redis-cluster-operator/pkg/apis"
+	"github.com/truongnh28/redis-cluster-operator/pkg/apis"
 )
 
 func NewClient(config *rest.Config) (client.Client, error) {

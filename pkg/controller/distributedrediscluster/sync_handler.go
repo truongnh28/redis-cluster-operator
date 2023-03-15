@@ -7,13 +7,13 @@ import (
 	"github.com/go-logr/logr"
 	corev1 "k8s.io/api/core/v1"
 
-	redisv1alpha1 "github.com/ucloud/redis-cluster-operator/pkg/apis/redis/v1alpha1"
-	"github.com/ucloud/redis-cluster-operator/pkg/config"
-	"github.com/ucloud/redis-cluster-operator/pkg/controller/clustering"
-	"github.com/ucloud/redis-cluster-operator/pkg/controller/manager"
-	"github.com/ucloud/redis-cluster-operator/pkg/k8sutil"
-	"github.com/ucloud/redis-cluster-operator/pkg/redisutil"
-	"github.com/ucloud/redis-cluster-operator/pkg/resources/statefulsets"
+	redisv1alpha1 "github.com/truongnh28/redis-cluster-operator/pkg/apis/redis/v1alpha1"
+	"github.com/truongnh28/redis-cluster-operator/pkg/config"
+	"github.com/truongnh28/redis-cluster-operator/pkg/controller/clustering"
+	"github.com/truongnh28/redis-cluster-operator/pkg/controller/manager"
+	"github.com/truongnh28/redis-cluster-operator/pkg/k8sutil"
+	"github.com/truongnh28/redis-cluster-operator/pkg/redisutil"
+	"github.com/truongnh28/redis-cluster-operator/pkg/resources/statefulsets"
 )
 
 const (
