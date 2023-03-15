@@ -1,15 +1,13 @@
 module github.com/ucloud/redis-cluster-operator
 
 require (
-	github.com/appscode/go v0.0.0-20191006073906-e3d193d493fc
-	github.com/appscode/osm v0.12.0
+	github.com/appscode/go v0.0.0-20201105063637-5613f3b8169f
 	github.com/aws/aws-sdk-go v1.20.20
-	github.com/go-logr/logr v0.1.0
+	//github.com/go-logr/logr v0.1.0
 	github.com/go-openapi/spec v0.19.2
 	github.com/go-redis/redis v6.15.7+incompatible
 	github.com/mediocregopher/radix.v2 v0.0.0-20181115013041-b67df6e626f9
 	github.com/onsi/ginkgo v1.8.0
-	github.com/onsi/gomega v1.5.0
 	github.com/operator-framework/operator-sdk v0.13.0
 	github.com/pkg/errors v0.8.1
 	github.com/satori/go.uuid v1.2.0
@@ -24,6 +22,12 @@ require (
 	kmodules.xyz/constants v0.0.0-20191024095500-cd4313df4aa6
 	kmodules.xyz/objectstore-api v0.0.0-20191014210450-ac380fa650a3
 	sigs.k8s.io/controller-runtime v0.4.0
+)
+
+require (
+	github.com/appscode/osm v0.12.0
+	github.com/go-logr/logr v0.1.0
+	github.com/onsi/gomega v1.5.0
 )
 
 // Pinned to kubernetes-1.16.2
@@ -53,7 +57,9 @@ replace (
 
 replace (
 	github.com/Azure/go-autorest => github.com/Azure/go-autorest v13.3.1+incompatible
+	github.com/appscode/go v0.12.0 => github.com/appscode/go v0.0.0-20201105063637-5613f3b8169f
 	github.com/go-check/check => github.com/go-check/check v0.0.0-20180628173108-788fd7840127
+//github.com/go-logr/logr v1.2.3 => github.com/go-logr/logr v0.2.1
 )
 
-go 1.13
+go 1.16
